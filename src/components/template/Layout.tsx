@@ -9,7 +9,7 @@ export default function Layout(props: any){
         
       <div className="bg-zinc-900 flex flex-1 gap-10 w-full">
         <Menu/>
-        <main className="text-white">
+        <main className="text-white w-full flex items-center justify-start flex-col mt-10">
           {props.children}
         </main>
       </div>
